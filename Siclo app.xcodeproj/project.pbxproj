@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ED253151D2F5691008C86F0 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED253141D2F5691008C86F0 /* MyTableViewCell.swift */; };
+		843C459C1DCE0A37007CA5D0 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C459B1DCE0A37007CA5D0 /* UIColorExtension.swift */; };
+		843C459F1DCE126D007CA5D0 /* BaseNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C459E1DCE126D007CA5D0 /* BaseNibView.swift */; };
+		843C45A11DCE127A007CA5D0 /* ShowAllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C45A01DCE127A007CA5D0 /* ShowAllView.swift */; };
+		843C45A31DCE12E1007CA5D0 /* ShowAllView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843C45A21DCE12E1007CA5D0 /* ShowAllView.xib */; };
+		843C45A61DCE1FE7007CA5D0 /* SicloColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C45A51DCE1FE7007CA5D0 /* SicloColor.swift */; };
+		843C45A81DCE49A7007CA5D0 /* ComicSansMS3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843C45A71DCE41FB007CA5D0 /* ComicSansMS3.ttf */; };
+		9C8DC8941CDC56520028FB23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8DC8931CDC56520028FB23 /* AppDelegate.swift */; };
+		9C8DC8961CDC56520028FB23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8DC8951CDC56520028FB23 /* ViewController.swift */; };
+		9C8DC8991CDC56520028FB23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8DC8971CDC56520028FB23 /* Main.storyboard */; };
+		9C8DC89B1CDC56520028FB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8DC89A1CDC56520028FB23 /* Assets.xcassets */; };
+		9C8DC89E1CDC56520028FB23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8DC89C1CDC56520028FB23 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7ED253141D2F5691008C86F0 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		843C459B1DCE0A37007CA5D0 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		843C459E1DCE126D007CA5D0 /* BaseNibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNibView.swift; sourceTree = "<group>"; };
+		843C45A01DCE127A007CA5D0 /* ShowAllView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAllView.swift; sourceTree = "<group>"; };
+		843C45A21DCE12E1007CA5D0 /* ShowAllView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowAllView.xib; sourceTree = "<group>"; };
+		843C45A51DCE1FE7007CA5D0 /* SicloColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SicloColor.swift; sourceTree = "<group>"; };
+		843C45A71DCE41FB007CA5D0 /* ComicSansMS3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ComicSansMS3.ttf; sourceTree = "<group>"; };
+		9C8DC8901CDC56520028FB23 /* Siclo app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Siclo app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8DC8931CDC56520028FB23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C8DC8951CDC56520028FB23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C8DC8981CDC56520028FB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C8DC89A1CDC56520028FB23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C8DC89D1CDC56520028FB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C8DC89F1CDC56520028FB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C8DC88D1CDC56520028FB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843C459A1DCE09D5007CA5D0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				843C459B1DCE0A37007CA5D0 /* UIColorExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		843C459D1DCE1242007CA5D0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				843C459E1DCE126D007CA5D0 /* BaseNibView.swift */,
+				843C45A01DCE127A007CA5D0 /* ShowAllView.swift */,
+				843C45A21DCE12E1007CA5D0 /* ShowAllView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		843C45A41DCE1FC4007CA5D0 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				843C45A51DCE1FE7007CA5D0 /* SicloColor.swift */,
+			);
+			name = Styles;
+			sourceTree = "<group>";
+		};
+		9C8DC8871CDC56520028FB23 = {
+			isa = PBXGroup;
+			children = (
+				9C8DC8921CDC56520028FB23 /* Siclo app */,
+				9C8DC8911CDC56520028FB23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C8DC8911CDC56520028FB23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C8DC8901CDC56520028FB23 /* Siclo app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C8DC8921CDC56520028FB23 /* Siclo app */ = {
+			isa = PBXGroup;
+			children = (
+				843C45A41DCE1FC4007CA5D0 /* Styles */,
+				843C459D1DCE1242007CA5D0 /* Views */,
+				843C459A1DCE09D5007CA5D0 /* Extensions */,
+				9C8DC8931CDC56520028FB23 /* AppDelegate.swift */,
+				9C8DC8951CDC56520028FB23 /* ViewController.swift */,
+				9C8DC8971CDC56520028FB23 /* Main.storyboard */,
+				7ED253141D2F5691008C86F0 /* MyTableViewCell.swift */,
+				843C45A71DCE41FB007CA5D0 /* ComicSansMS3.ttf */,
+				9C8DC89A1CDC56520028FB23 /* Assets.xcassets */,
+				9C8DC89C1CDC56520028FB23 /* LaunchScreen.storyboard */,
+				9C8DC89F1CDC56520028FB23 /* Info.plist */,
+			);
+			name = "Siclo app";
+			path = "recruitment test ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C8DC88F1CDC56520028FB23 /* Siclo app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8DC8A21CDC56520028FB23 /* Build configuration list for PBXNativeTarget "Siclo app" */;
+			buildPhases = (
+				9C8DC88C1CDC56520028FB23 /* Sources */,
+				9C8DC88D1CDC56520028FB23 /* Frameworks */,
+				9C8DC88E1CDC56520028FB23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Siclo app";
+			productName = "recruitment test ios";
+			productReference = 9C8DC8901CDC56520028FB23 /* Siclo app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C8DC8881CDC56520028FB23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Siclo;
+				TargetAttributes = {
+					9C8DC88F1CDC56520028FB23 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 9C8DC88B1CDC56520028FB23 /* Build configuration list for PBXProject "Siclo app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C8DC8871CDC56520028FB23;
+			productRefGroup = 9C8DC8911CDC56520028FB23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C8DC88F1CDC56520028FB23 /* Siclo app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C8DC88E1CDC56520028FB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843C45A81DCE49A7007CA5D0 /* ComicSansMS3.ttf in Resources */,
+				9C8DC89E1CDC56520028FB23 /* LaunchScreen.storyboard in Resources */,
+				843C45A31DCE12E1007CA5D0 /* ShowAllView.xib in Resources */,
+				9C8DC89B1CDC56520028FB23 /* Assets.xcassets in Resources */,
+				9C8DC8991CDC56520028FB23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C8DC88C1CDC56520028FB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8DC8961CDC56520028FB23 /* ViewController.swift in Sources */,
+				9C8DC8941CDC56520028FB23 /* AppDelegate.swift in Sources */,
+				843C459F1DCE126D007CA5D0 /* BaseNibView.swift in Sources */,
+				843C45A11DCE127A007CA5D0 /* ShowAllView.swift in Sources */,
+				7ED253151D2F5691008C86F0 /* MyTableViewCell.swift in Sources */,
+				843C459C1DCE0A37007CA5D0 /* UIColorExtension.swift in Sources */,
+				843C45A61DCE1FE7007CA5D0 /* SicloColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C8DC8971CDC56520028FB23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8DC8981CDC56520028FB23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C8DC89C1CDC56520028FB23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C8DC89D1CDC56520028FB23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C8DC8A01CDC56520028FB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C8DC8A11CDC56520028FB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C8DC8A31CDC56520028FB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "recruitment test ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siclo.recruitment-test-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9C8DC8A41CDC56520028FB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "recruitment test ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.siclo.recruitment-test-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C8DC88B1CDC56520028FB23 /* Build configuration list for PBXProject "Siclo app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8DC8A01CDC56520028FB23 /* Debug */,
+				9C8DC8A11CDC56520028FB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8DC8A21CDC56520028FB23 /* Build configuration list for PBXNativeTarget "Siclo app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8DC8A31CDC56520028FB23 /* Debug */,
+				9C8DC8A41CDC56520028FB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C8DC8881CDC56520028FB23 /* Project object */;
+}
