@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    let ViewControlCellHeight:CGFloat = 85
+    let ViewControlCellHeight:CGFloat = 77
     let ShowAllViewHeight:CGFloat = 41
 
     @IBOutlet var searchBar: UISearchBar!

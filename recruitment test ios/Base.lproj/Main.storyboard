@@ -53,14 +53,14 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" image="HamburgerMenu"/>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="85" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eww-uv-Nat">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="104" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eww-uv-Nat">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="85" id="03r-8t-p8V" customClass="MyTableViewCell" customModule="Siclo_app" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="85"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="104" id="03r-8t-p8V" customClass="MyTableViewCell" customModule="Siclo_app" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="104"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="03r-8t-p8V" id="I2r-wb-GSj">
-                                            <frame key="frameInset" width="375" height="85"/>
+                                            <frame key="frameInset" width="375" height="104"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MonaLisa" translatesAutoresizingMaskIntoConstraints="NO" id="0fF-Sv-JsU">
@@ -70,17 +70,17 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mona Lisa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEQ-ZL-KDy">
-                                                    <fontDescription key="fontDescription" name="ComicSansMS" family="Comic Sans MS" pointSize="18"/>
+                                                    <fontDescription key="fontDescription" name="ComicSansMS" family="Comic Sans MS" pointSize="24"/>
                                                     <color key="textColor" red="0.2196078431372549" green="0.42352941176470588" blue="0.47450980392156861" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sCw-uy-VLw">
-                                                    <fontDescription key="fontDescription" name="ComicSansMS" family="Comic Sans MS" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="ComicSansMS" family="Comic Sans MS" pointSize="14"/>
                                                     <color key="textColor" red="0.61176470588235299" green="0.59999999999999998" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uWO-Z9-Faa" userLabel="border">
-                                                    <color key="backgroundColor" red="0.61176470588235299" green="0.59999999999999998" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.82745098039215681" green="0.82745098039215681" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="2" id="2Hr-10-BD6"/>
                                                     </constraints>
@@ -92,7 +92,7 @@
                                                 <constraint firstItem="uWO-Z9-Faa" firstAttribute="top" secondItem="0fF-Sv-JsU" secondAttribute="bottom" constant="10" id="BFe-sm-BHl"/>
                                                 <constraint firstItem="sCw-uy-VLw" firstAttribute="leading" secondItem="0fF-Sv-JsU" secondAttribute="trailing" constant="10" id="HOw-go-DyM"/>
                                                 <constraint firstItem="GEQ-ZL-KDy" firstAttribute="leading" secondItem="0fF-Sv-JsU" secondAttribute="trailing" constant="10" id="I6l-Tz-ASW"/>
-                                                <constraint firstItem="0fF-Sv-JsU" firstAttribute="top" secondItem="I2r-wb-GSj" secondAttribute="topMargin" constant="5" id="cbu-K0-fux"/>
+                                                <constraint firstItem="0fF-Sv-JsU" firstAttribute="top" secondItem="I2r-wb-GSj" secondAttribute="topMargin" constant="2" id="cbu-K0-fux"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="GEQ-ZL-KDy" secondAttribute="trailing" id="dPc-K7-whZ"/>
                                                 <constraint firstItem="sCw-uy-VLw" firstAttribute="top" secondItem="GEQ-ZL-KDy" secondAttribute="bottom" id="hyL-DI-hLc"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="uWO-Z9-Faa" secondAttribute="trailing" constant="10" id="lRS-9N-QXc"/>
@@ -132,10 +132,10 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="RMQ-hf-sfL"/>
                                 <exclude reference="oyL-Ku-5Uh"/>
                                 <exclude reference="t74-60-8mt"/>
                                 <exclude reference="cBn-gD-zrb"/>
+                                <exclude reference="RMQ-hf-sfL"/>
                             </mask>
                         </variation>
                     </view>
